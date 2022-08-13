@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-image: url(imagens/cabecalho.png);
+    width: 98.7vw;
+    height: 97vh;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Forum', cursive;
+    font-weight: lighter;
+    padding-top: 3%;
+    font-size: 1.3em;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid white;
+    margin: auto;
+}
+
+.cabecalho-itens:hover {
+    color: rgb(128, 128, 128);
+    transform: translate(2px, -2px);
+    transition: transform 1s
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding-top: 10;
+    padding-bottom: 1%;
+}
+
+.portfolio-imagens {
+    border: 1px solid #dddddd;;
+    width: 290px;
+}
+
+#sobremim {
+    background-image: url(imagens/gabi.png);
+    margin: auto;
+    height: 65vh;
+    width: 98.7vw;
+    background-attachment: fixed;
+    margin-top: 10vh;
+    background-size: cover;
+}
+
+#sobremimparagrafo {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.sobre-mim-paragrafo {
+    display: inline-block;
+    flex-direction: row;
+    width: 27vw;
+    text-align: justify;
+    margin: 39px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #2c2c2c;
+}
+
+footer > h1, footer > h2 {
+    color: white;
+}
+
+footer > h2 {
+    font-family: 'Forum', cursive;
+    font-weight: lighter;
+    margin: auto;
+    text-align: center;
+    padding: 4px;
+}
+
+
+
+
